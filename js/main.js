@@ -174,7 +174,7 @@ $(document).ready(function () {
 		var form = new FormData();
 		form.append("image", $("#upload-img").prop("files")[0]);
 		var settings = {
-			url: "https://api.imgbb.com/1/upload?key=aa6363fd0b78e5b38d451e3e648e97d6",
+			url: "https://api.imgbb.com/1/upload?key=0fc6559abd43361ccffcccf4954b8c80",
 			method: "POST",
 			timeout: 0,
 			processData: false,
@@ -196,7 +196,7 @@ $(document).ready(function () {
 		var form = new FormData();
 		form.append("image", $("#upload-overlay-img").prop("files")[0]);
 		var settings = {
-			url: "https://api.imgbb.com/1/upload?key=aa6363fd0b78e5b38d451e3e648e97d6",
+			url: "https://api.imgbb.com/1/upload?key=0fc6559abd43361ccffcccf4954b8c80",
 			method: "POST",
 			timeout: 0,
 			processData: false,
